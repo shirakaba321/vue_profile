@@ -1,5 +1,5 @@
 <template>
-<div>
+<div class="top-content">
 	<h1>Top</h1>
 </div>
 </template>
@@ -10,8 +10,12 @@ export default {
 }
 </script>
 
-<style>
-
+<style scoped>
+.top-content {
+	width: 100%;
+	position:absolute
+}
 </style>
+
 
 

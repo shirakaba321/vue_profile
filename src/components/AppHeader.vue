@@ -10,6 +10,7 @@
 		 <li id="link-e"><router-link to="/future">ABOUT THE FUTURE</router-link></li>
 	 	</ul>
 	</nav>
+	<hr>
 </header>
 </template>
 
@@ -22,6 +23,16 @@ name: 'header'
 <style>
 ul {
   list-style: none;
+}
+
+hr {
+	border: none;
+	border-top: 3px double #333;
+	margin-top: 10px;
+	color: #333;
+	overflow: visible;
+	text-align: center;
+	height: 5px;
 }
 
 #header-nav {

@@ -15,7 +15,9 @@ footer{
   width: 100%;
   background-color: #a1ff75;
   text-align: center;
-  padding: 25px 0;
+  padding: 30px 0;
+  position: absolute;/*←絶対位置*/
+  bottom: 0; /*下に固定*/
 }
 
 footer p {

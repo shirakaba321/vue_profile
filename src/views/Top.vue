@@ -1,10 +1,14 @@
 <template>
-<h1>Top</h1>
+<TopContent/>
 </template>
 
 <script>
+import TopContent from '../components/TopContent.vue'
 export default {
-    
+	name: 'topvue',
+	components: {
+    TopContent
+  }
 }
 </script>
 

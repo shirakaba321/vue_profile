@@ -21,12 +21,12 @@ export default {
 
 <style>
 #app {
-  /* font-family: 'Avenir', Helvetica, Arial, sans-serif; */
+  min-height: 100vh;
+  position: relative;
+  padding-bottom: 120px;
+  box-sizing: border-box;
   font-family: "ヒラギノ角ゴ Pro W3","Hiragino Kaku Gothic Pro";
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  /* text-align: center; */
-  /* color: #2c3e50; */
-  /* margin-top: 60px; */
 }
 </style>

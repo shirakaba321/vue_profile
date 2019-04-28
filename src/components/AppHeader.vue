@@ -33,7 +33,6 @@ ul {
 
 #header-nav a {
 	color: #c0c0c0;
-	opacity: 0.5;
 }
 
 #header-nav li {
@@ -45,7 +44,6 @@ a {
 }
 
 #link-a:hover a {
-	opacity: 1;
   color: #a1ff75;
   border-bottom: 5px solid #a1ff75;
 }

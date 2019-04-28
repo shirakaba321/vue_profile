@@ -1,20 +1,7 @@
 <template>
-<v-app>
-  <v-footer class="footer" height="auto" color="primary lighten-1">
-    <v-layout>
-      <v-flex
-            primary
-            lighten-2
-            py-3
-            text-xs-center
-            white--text
-            xs12
-          >
-            &copy;2019 — <strong>Portfolio</strong>
-      </v-flex>
-    </v-layout>
-  </v-footer>
-</v-app>
+<footer>
+  <p>2019年 Portfolio</p>
+</footer>
 </template>
 
 <script>
@@ -24,8 +11,17 @@ export default {
 </script>
 
 <style>
-.footer {
-  height: auto;
+footer{
+  width: 100%;
+  background-color: #a1ff75;
+  text-align: center;
+  padding: 25px 0;
+}
+
+footer p {
+  font-size: 10px;
+  color: #fff;
+  font-weight: bold;
 }
 </style>
 

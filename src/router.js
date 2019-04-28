@@ -3,7 +3,7 @@ import Router from 'vue-router'
 
 import Top from './views/Top.vue'
 import Profile from './views/Profile.vue'
-import Career from './components/MyCareer.vue'
+import Career from './views/Career.vue'
 import Work from './views/Work.vue'
 import Learn from './views/Learn.vue'
 

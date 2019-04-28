@@ -6,6 +6,7 @@ import Profile from './views/Profile.vue'
 import Career from './views/Career.vue'
 import Work from './views/Work.vue'
 import Learn from './views/Learn.vue'
+import Future from './views/Future.vue'
 
 Vue.use(Router)
 
@@ -42,5 +43,10 @@ export default new Router({
       name: 'learn',
       component: Learn,
     },
+    {
+      path: '/future',
+      name:'future',
+      component: Future
+    }
   ]
 })

@@ -1,6 +1,20 @@
 <template>
 <header>
- <h1><router-link to="/">Top</router-link></h1>
+	<v-layout wrap class="vlayout">
+      <v-layout>
+				<h1 class="top-h1"><router-link to="/">Top</router-link></h1>
+        <v-layout justify-end><v-btn id="top-responsive" @click.stop="drawer = !drawer"><v-icon x-large>menu</v-icon></v-btn></v-layout>
+      </v-layout>
+    <v-navigation-drawer v-model="drawer" absolute temporary>
+			<v-list-content class="vlist">
+					<li id="link-a"><router-link to="/profile">PROFILE</router-link></li>
+		 			<li id="link-b"><router-link to="/career">CAREER</router-link></li>
+		 			<li id="link-c"><router-link to="/work">WORK</router-link></li>
+		 			<li id="link-d"><router-link to="/learn">LEARN</router-link></li>
+		 			<li id="link-e"><router-link to="/future">ABOUT THE FUTURE</router-link></li>
+			</v-list-content>
+    </v-navigation-drawer>
+  </v-layout>
  	<nav>
 	 	<ul id="header-nav">
 		 <li id="link-a"><router-link to="/profile">PROFILE</router-link></li>
@@ -10,29 +24,38 @@
 		 <li id="link-e"><router-link to="/future">ABOUT THE FUTURE</router-link></li>
 	 	</ul>
 	</nav>
-	<hr>
 </header>
 </template>
 
 <script>
-export default {
-name: 'header'
-}
+  export default {
+    data () {
+      return {
+        drawer: null,
+        items: [
+          { title: 'Home'},
+          { title: 'About'}
+        ]
+      }
+    }
+  }
 </script>
 
 <style>
-ul {
+* {
   list-style: none;
 }
 
-hr {
-	border: none;
-	border-top: 3px double #333;
-	margin-top: 10px;
-	color: #333;
-	overflow: visible;
-	text-align: center;
-	height: 5px;
+header {
+	border-bottom: 3px solid black;
+  margin-top: 0px;       /* 上線の外側の余白はナシ */
+  padding-top: 0px;      /* 上線の内側の余白はナシ */
+  margin-bottom: 0.3em;  /* 下線の外側の余白量 */
+  padding-bottom: 0.3em; /* 下線の内側の余白量 */
+}
+
+.top-h1 {
+ margin-left: 30px;
 }
 
 #header-nav {
@@ -43,6 +66,7 @@ hr {
 }
 
 #header-nav a {
+	display: block;
 	color: #c0c0c0;
 }
 
@@ -81,5 +105,36 @@ a {
 	opacity: 1;
   color: #ff9f96;
   border-bottom: 5px solid #ff9f96;
+}
+
+.vlist li {
+	padding: 10px 0px 30px 30px ;
+}
+
+#top-responsive {
+	display: none;
+	text-align: right;
+	background-color: #a1ff75;
+	color: white;
+	width: 30px;
+}
+
+@media (max-width:1024px ) {
+	#top-responsive {
+		display: block;
+	}
+	#header-nav {
+		display: none;
+	}
+}
+
+/* ブレイクポイントをmax-width: 670pxに指定してください */
+@media (max-width:670px ) {
+  #top-responsive {
+		display: block;
+	}
+	#header-nav {
+		display: none;
+	}
 }
 </style>

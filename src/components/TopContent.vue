@@ -1,5 +1,5 @@
 <template>
-<div class="top-content">
+<div>
 	<h1>Top</h1>
 </div>
 </template>
@@ -11,9 +11,9 @@ export default {
 </script>
 
 <style scoped>
-.top-content {
-	width: 100%;
-	position:absolute
+div {
+	margin: 10px auto;
+  width:50px;
 }
 </style>
 

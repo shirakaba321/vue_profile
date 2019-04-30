@@ -1,20 +1,20 @@
 <template>
 <header>
-	<v-layout wrap class="vlayout">
-      <v-layout>
-				<h1 class="top-h1"><router-link to="/">Top</router-link></h1>
-        <v-layout justify-end><v-btn id="top-responsive" @click.stop="drawer = !drawer"><v-icon x-large>menu</v-icon></v-btn></v-layout>
-      </v-layout>
-    <v-navigation-drawer v-model="drawer" absolute temporary>
-			<v-list-content class="vlist">
-					<li id="link-a"><router-link to="/profile">PROFILE</router-link></li>
+  <v-layout wrap class="vlayout">
+  	<v-layout>
+			<h1 class="top-h1"><router-link to="/">Top</router-link></h1>
+      <v-layout justify-end><v-btn id="top-responsive" @click.stop="drawer = !drawer"><v-icon x-large>menu</v-icon></v-btn></v-layout>
+    </v-layout>
+    	<v-navigation-drawer v-model="drawer" absolute temporary>
+				<v-list-content class="vlist">
+          <li id="link-a"><router-link to="/profile">PROFILE</router-link></li>
 		 			<li id="link-b"><router-link to="/career">CAREER</router-link></li>
 		 			<li id="link-c"><router-link to="/work">WORK</router-link></li>
 		 			<li id="link-d"><router-link to="/learn">LEARN</router-link></li>
 		 			<li id="link-e"><router-link to="/future">ABOUT THE FUTURE</router-link></li>
-			</v-list-content>
-    </v-navigation-drawer>
-  </v-layout>
+				</v-list-content>
+    	</v-navigation-drawer>
+  	</v-layout>
  	<nav>
 	 	<ul id="header-nav">
 		 <li id="link-a"><router-link to="/profile">PROFILE</router-link></li>
@@ -29,13 +29,10 @@
 
 <script>
   export default {
+		name: 'appheader',
     data () {
       return {
-        drawer: null,
-        items: [
-          { title: 'Home'},
-          { title: 'About'}
-        ]
+        drawer: null
       }
     }
   }
@@ -48,10 +45,10 @@
 
 header {
 	border-bottom: 3px solid black;
-  margin-top: 0px;       /* 上線の外側の余白はナシ */
-  padding-top: 0px;      /* 上線の内側の余白はナシ */
-  margin-bottom: 0.3em;  /* 下線の外側の余白量 */
-  padding-bottom: 0.3em; /* 下線の内側の余白量 */
+  margin-top: 0px;
+  padding-top: 0px;      
+  margin-bottom: 0.3em;  
+  padding-bottom: 0.3em; 
 }
 
 .top-h1 {
@@ -111,6 +108,9 @@ a {
 	padding: 10px 0px 30px 30px ;
 }
 
+.vlist a {
+	color: #c0c0c0;
+}
 #top-responsive {
 	display: none;
 	text-align: right;
@@ -128,7 +128,6 @@ a {
 	}
 }
 
-/* ブレイクポイントをmax-width: 670pxに指定してください */
 @media (max-width:670px ) {
   #top-responsive {
 		display: block;

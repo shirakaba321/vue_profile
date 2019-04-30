@@ -1,6 +1,6 @@
 <template>
 <div>
-	<h1>Top</h1>
+	<h1 id="top">Top</h1>
 </div>
 </template>
 
@@ -13,8 +13,14 @@ export default {
 <style scoped>
 div {
 	margin: 10px auto;
-  width:50px;
+ 	width:50px;
 }
+#top {
+	margin-left: 20px;
+	font-size: 50px;
+	color:  #a1ff75;
+}
+
 </style>
 
 

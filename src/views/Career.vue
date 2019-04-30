@@ -1,10 +1,14 @@
 <template>
-<h1>Career</h1>
+<CareerContent/>
 </template>
 
 <script>
+import CareerContent from '../components/CareerContent.vue'
 export default {
-    
+	name: 'career',
+	components: {
+    CareerContent
+  }
 }
 </script>
 

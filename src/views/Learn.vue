@@ -1,10 +1,14 @@
 <template>
-<h1>Learn</h1>
+<LearnContent/>
 </template>
 
 <script>
+import LearnContent from '../components/LearnContent.vue'
 export default {
-    
+	name: 'learn',
+	components: {
+    LearnContent
+  }
 }
 </script>
 

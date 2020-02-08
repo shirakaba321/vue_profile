@@ -1,41 +1,41 @@
 <template>
 <header>
   <v-layout wrap class="vlayout">
-  	<v-layout>
+		<v-layout>
 			<h1 class="top-h1"><router-link to="/">Top</router-link></h1>
       <v-layout justify-end><v-btn id="top-responsive" @click.stop="drawer = !drawer"><v-icon x-large>menu</v-icon></v-btn></v-layout>
     </v-layout>
-    	<v-navigation-drawer v-model="drawer" absolute temporary>
-				<v-list-content class="vlist">
-          <li id="link-a"><router-link to="/profile">PROFILE</router-link></li>
-		 			<li id="link-b"><router-link to="/career">CAREER</router-link></li>
-		 			<li id="link-c"><router-link to="/work">WORK</router-link></li>
-		 			<li id="link-d"><router-link to="/learn">LEARN</router-link></li>
-		 			<li id="link-e"><router-link to="/future">ABOUT THE FUTURE</router-link></li>
-				</v-list-content>
-    	</v-navigation-drawer>
-  	</v-layout>
- 	<nav>
-	 	<ul id="header-nav">
-		 <li id="link-a"><router-link to="/profile">PROFILE</router-link></li>
-		 <li id="link-b"><router-link to="/career">CAREER</router-link></li>
-		 <li id="link-c"><router-link to="/work">WORK</router-link></li>
-		 <li id="link-d"><router-link to="/learn">LEARN</router-link></li>
-		 <li id="link-e"><router-link to="/future">ABOUT THE FUTURE</router-link></li>
-	 	</ul>
+    <v-navigation-drawer v-model="drawer" absolute temporary>
+			<v-list-content class="vlist">
+				<li id="link-a"><router-link to="/profile">PROFILE</router-link></li>
+		 		<li id="link-b"><router-link to="/career">CAREER</router-link></li>
+		 		<li id="link-c"><router-link to="/work">WORK</router-link></li>
+		 		<li id="link-d"><router-link to="/learn">LEARN</router-link></li>
+		 		<li id="link-e"><router-link to="/future">ABOUT THE FUTURE</router-link></li>
+			</v-list-content>
+    </v-navigation-drawer>
+  </v-layout>
+	<nav>
+		<ul id="header-nav">
+			<li id="link-a"><router-link to="/profile">PROFILE</router-link></li>
+			<li id="link-b"><router-link to="/career">CAREER</router-link></li>
+			<li id="link-c"><router-link to="/work">WORK</router-link></li>
+			<li id="link-d"><router-link to="/learn">LEARN</router-link></li>
+			<li id="link-e"><router-link to="/future">ABOUT THE FUTURE</router-link></li>
+		</ul>
 	</nav>
 </header>
 </template>
 
 <script>
-  export default {
-		name: 'appheader',
-    data () {
-      return {
-        drawer: null
-      }
+export default {
+	name: 'appheader',
+  data () {
+    return {
+			drawer: null
     }
   }
+}
 </script>
 
 <style>
@@ -44,7 +44,7 @@
 }
 
 header {
-	border-bottom: 3px solid black;
+  border-bottom: 3px solid black;
   margin-top: 0px;
   padding-top: 0px;      
   margin-bottom: 0.3em;  
@@ -120,6 +120,15 @@ a {
 }
 
 @media (max-width:1024px ) {
+	#top-responsive {
+		display: block;
+	}
+	#header-nav {
+		display: none;
+	}
+}
+
+@media (max-width:768px ) {
 	#top-responsive {
 		display: block;
 	}

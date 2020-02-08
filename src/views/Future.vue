@@ -1,10 +1,14 @@
 <template>
-<h1>Future</h1>
+<FutureContent/>
 </template>
 
 <script>
+import FutureContent from '../components/FutureContent.vue'
 export default {
-    
+	name: 'future',
+	components: {
+		FutureContent
+	}
 }
 </script>
 

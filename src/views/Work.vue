@@ -1,10 +1,14 @@
 <template>
-<h1>Work</h1>
+<WorkContent/>
 </template>
 
 <script>
+import WorkContent from '../components/WorkContent.vue'
 export default {
-    
+	name: 'work',
+	components: {
+    WorkContent
+  }
 }
 </script>
 

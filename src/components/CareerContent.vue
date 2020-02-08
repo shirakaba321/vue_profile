@@ -1,15 +1,15 @@
 <template>
 <v-timeline>
 	<h1 id="career">経歴 / CAREER</h1>
-  <v-timeline-item color="#a1ff75" fill-dot right>
+  <v-timeline-item id="v-timeline-1" color="#a1ff75" fill-dot right>
     <v-card>
       <v-card-title id="career-title-1">
-        <h2 class="display-1 white--text">専門学校卒業 / 新卒入社</h2>
+        <h2 class="display-1 white--text v-h2">専門学校卒業 / 新卒入社</h2>
       </v-card-title>
       <v-container>
         <v-layout>
           <v-flex>
-          	<p>・2017年 3月 大原簿記情報専門学校福岡校　卒業</p><br>
+            <p>・2017年 3月 大原簿記情報専門学校福岡校を卒業</p><br>
 						<p>・2017年 4月 JAに入組</p><br>
 						<p>・2017年 6月 適応障害と診断され休職</p><br>
 						<p>・2017年 7月 治療しつつ独学でプログラミングを学習をスタート</p><br>
@@ -20,7 +20,7 @@
     </v-card>
   </v-timeline-item>
 
-  <v-timeline-item color="#83e2eb" fill-dot left>
+  <v-timeline-item id="v-timeline-2" color="#83e2eb" fill-dot left>
     <v-card>
       <v-card-title id="career-title-2" justify-end>
         <h2 class="display-1 mr-3 white--text">再就職へ...</h2>
@@ -29,14 +29,15 @@
         <v-layout>
          <v-flex>
           	<p>・2017年 10月 Amazonに契約社員として入社（チャット・メール・電話のカスタマーサービス）</p><br>
-						<p>・2017年 1月 退職</p><br>
+            <p>・2018年 1月 発達障害診断される</p><br>
+						<p>・2018年 2月 退職</p><br>
           </v-flex>
         </v-layout>
       </v-container>
     </v-card>
   </v-timeline-item>
 
-  <v-timeline-item color="#c2a1ff" fill-dot right>
+  <v-timeline-item id="v-timeline-3" color="#c2a1ff" fill-dot right>
     <v-card>
       <v-card-title id="career-title-3">
         <h2 class="display-1 white--text">2度目の転職へ</h2>
@@ -44,14 +45,14 @@
       <v-container>
       	<v-layout>
 				  <v-flex>
-            <p>・2018年 2月 UQのチャット業務に契約社員として入社</p><br>
+            <p>・2018年 3月 UQのチャット業務に契約社員として入社</p><br>
 					</v-flex>
         </v-layout>
       </v-container>
     </v-card>
   </v-timeline-item>
 
-  <v-timeline-item color="#ebca78" fill-dot left>
+  <v-timeline-item id="v-timeline-4" color="#ebca78" fill-dot left>
     <v-card>
       <v-card-title id="career-title-4" justify-end>
         <h2 class="display-1 mr-3 white--text">3度目の退職 / 新たな学習へ</h2>
@@ -69,7 +70,7 @@
     </v-card>
   </v-timeline-item>
 
-	<v-timeline-item color="#ff9f96" fill-dot right>
+	<v-timeline-item id="v-timeline-5" color="#ff9f96" fill-dot right>
     <v-card>
       <v-card-title id="career-title-5">
         <h2 class="display-1 white--text">GFTD FUKUOKA WORKSへ</h2>
@@ -119,5 +120,45 @@ export default {
 
 #career-title-5 {
 	background-color: #ff9f96;
+}
+
+@media (max-width:1024px ) {
+	#career {
+		margin-left: 20px;
+		font-size: 30px;
+		color: #83e2eb;
+	}
+}
+
+@media (max-width:768px ) {
+	#career {
+		margin-left: 20px;
+		font-size: 30px;
+		color: #83e2eb;
+	}
+}
+
+@media (max-width:670px ) {
+  #career {
+		margin-left: 10px;
+		font-size: 18px;
+		color: #83e2eb;
+	}
+  #v-timeline-1 {
+    display: -webkit-box;
+  }
+  #v-timeline-2 {
+    display: -webkit-box;
+  }
+  #v-timeline-3 {
+    display: -webkit-box;
+  }
+  #v-timeline-4 {
+    display: -webkit-box;
+  }
+  #v-timeline-5 {
+    display: -webkit-box;
+  }
+
 }
 </style>

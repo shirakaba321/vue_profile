@@ -4,55 +4,34 @@
 	<v-layout row fill-height id="work-style-1" class="work-respons">
 		<v-card class="work-card">
 			<v-img class="white--text" height="200px" v-bind:src="require('@/assets/workimage/portfolio_html_css.png')">
-				<v-container fill-height fluid>
-					<v-layout fill-height>
-						<v-flex xs12 align-end flexbox>
-							<span class="headline work-title">HTML+CSS/Bootstrap</span>
-						</v-flex>
-						</v-layout>
-				</v-container>
 			</v-img>
 			<v-card-title>
 				<div>
 					<span class="grey--text">Portfolio</span><br>
-					<span>Whitehaven Beach</span><br>
-					<span>Whitsunday Island, Whitsunday Islands</span>
+					<span>HTML+CSS/Bootstrap</span><br>
+					<span>GFTDで初めて作ったレスポンシブに対応したサイト</span>
 				</div>
 			</v-card-title>
 		</v-card>
 		<v-card class="work-card">
 			<v-img class="white--text" height="200px" v-bind:src="require('@/assets/workimage/vue_and_rails_todo.png')">
-				<v-container fill-height fluid>
-					<v-layout fill-height>
-						<v-flex xs12 align-end flexbox>
-							<span class="headline work-title">Vue+Ruby on Rails</span>
-						</v-flex>
-					</v-layout>
-				</v-container>
 			</v-img>
 			<v-card-title>
 				<div>
-					<span class="grey--text">Number 2</span><br>
-					<span>Whitehaven Beach</span><br>
-					<span>Whitsunday Island, Whitsunday Islands</span>
+					<span class="grey--text">Todoリスト</span><br>
+					<span>Vue+Rails（Vue側の姿）</span><br>
+					<span>GFTDでVueとRailsの学習が終わって、<br>初めてフロントエンドとバックエンドを分けて<br>API通信で作ったサービス</span>
 				</div>
 			</v-card-title>
 		</v-card>
 		<v-card class="work-card">
 			<v-img class="white--text" height="200px" v-bind:src="require('@/assets/workimage/rails_and_vue_todo.png')">
-				<v-container fill-height fluid>
-					<v-layout fill-height>
-						<v-flex xs12 align-end flexbox>
-							<span class="headline work-title">Ruby on Rails+Vue</span>
-						</v-flex>
-					</v-layout>
-				</v-container>
 			</v-img>
 			<v-card-title>
 				<div>
-					<span class="grey--text">Number 3</span><br>
-					<span>Whitehaven Beach</span><br>
-					<span>Whitsunday Island, Whitsunday Islands</span>
+					<span class="grey--text">Todoリスト</span><br>
+					<span>Ruby on Rails+Vue（Rails側の姿）</span><br>
+					<span>GFTDでVueとRailsの学習が終わって、<br>初めてフロントエンドとバックエンドを分けて<br>API通信で作ったサービス</span>
 				</div>
 			</v-card-title>
 		</v-card>
@@ -61,55 +40,34 @@
 	<v-layout row fill-height id="work-style-2" class="work-respons work-2">
 		<v-card class="work-card">
 			<v-img class="white--text" height="200px" v-bind:src="require('@/assets/workimage/javascriptnonslider.png')">
-				<v-container fill-height fluid>
-					<v-layout fill-height>
-						<v-flex xs12 align-end flexbox>
-							<span class="headline work-title">Javascript</span>
-						</v-flex>
-					</v-layout>
-				</v-container>
 			</v-img>
 			<v-card-title>
 				<div>
-					<span class="grey--text">Number 4</span><br>
-					<span>Whitehaven Beach</span><br>
-					<span>Whitsunday Island, Whitsunday Islands</span>
+					<span class="grey--text">京大案件で実装するためのグラフ</span><br>
+					<span>JavaScript</span><br>
+					<span>GFTDで学習が終わって人生初めての開発案件。<br>そこでグラフの実装が必要だったので、<br>自分で一度確認するために作成した。</span>
 				</div>
 			</v-card-title>
 		</v-card>
 		<v-card class="work-card">
 			<v-img class="white--text" height="200px" v-bind:src="require('@/assets/workimage/vue_native_host.exp.exponent.jpg')">
-				<v-container fill-height fluid>
-					<v-layout fill-height>
-						<v-flex xs12 align-end flexbox>
-							<span class="headline work-title">Vue Native</span>
-						</v-flex>
-					</v-layout>
-				</v-container>
 			</v-img>
 			<v-card-title>
 				<div>
-					<span class="grey--text">Number 5</span><br>
-					<span>Whitehaven Beach</span><br>
-					<span>Whitsunday Island, Whitsunday Islands</span>
+					<span class="grey--text">初のハッカソン</span><br>
+					<span>Vuenative</span><br>
+					<span>GFTDの人たちと初めてのハッカソンをした時に触った。</span>
 				</div>
 			</v-card-title>
 		</v-card>
 		<v-card class="work-card">
 			<v-img class="white--text" height="200px" v-bind:src="require('@/assets/s_img_20180723_102213.jpg')">
-				<v-container fill-height fluid>
-					<v-layout fill-height>
-						<v-flex xs12 align-end flexbox>
-							<span class="headline work-title">未定</span>
-						</v-flex>
-					</v-layout>
-				</v-container>
 			</v-img>
 			<v-card-title>
 				<div>
-					<span class="grey--text">Number 6</span><br>
-					<span>Whitehaven Beach</span><br>
-					<span>Whitsunday Island, Whitsunday Islands</span>
+					<span class="grey--text">未定</span><br>
+					<span>今後追加予定今後追加予定今後追加予定今後追加予定</span><br>
+					<span>今後追加予定今後追加予定今後追加予定今後追加予定</span>
 				</div>
 			</v-card-title>
 		</v-card>
@@ -132,7 +90,7 @@ export default {
 }
 
 .work-title {
-	color: #a1ff75;
+	color:  #c2a1ff;
 }
 
 #work-style-1 {

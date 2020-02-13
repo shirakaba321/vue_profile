@@ -1,0 +1,14 @@
+version: '3'
+services:
+  front:
+    build: . # dockerfileの場所
+    # build: ./myprofile # dockerfileの場所
+    ports:
+      - "8080:8080"
+    command: yarn serve
+    volumes: # ホスト共有フォルダ : ゲスト共有フォルダ
+      - .:/app
+      # - ./myprofile:/app
+      - node_modules:/app/node_modules
+volumes:
+  node_modules:

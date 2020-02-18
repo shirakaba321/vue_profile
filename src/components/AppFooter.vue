@@ -1,6 +1,6 @@
 <template>
 <footer>
-  <p>2019年 Portfolio</p>
+  <p>2019年 Copyright: Shirakaba</p>
 </footer>
 </template>
 

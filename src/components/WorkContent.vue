@@ -9,7 +9,7 @@
 				<div>
 					<span class="grey--text">Portfolio</span><br>
 					<span>HTML+CSS/Bootstrap</span><br>
-					<span>GFTDで初めて作ったレスポンシブに対応したサイト</span>
+					<span>事業所で初めて作ったレスポンシブに対応したサイト</span>
 				</div>
 			</v-card-title>
 		</v-card>
@@ -20,7 +20,7 @@
 				<div>
 					<span class="grey--text">Todoリスト</span><br>
 					<span>Vue+Rails（Vue側の姿）</span><br>
-					<span>GFTDでVueとRailsの学習が終わって、<br>初めてフロントエンドとバックエンドを分けて<br>API通信で作ったサービス</span>
+					<span>事業所でVueとRailsの学習が終わって、<br>初めてフロントエンドとバックエンドを分けて<br>API通信で作ったサービス</span>
 				</div>
 			</v-card-title>
 		</v-card>
@@ -31,7 +31,7 @@
 				<div>
 					<span class="grey--text">Todoリスト</span><br>
 					<span>Ruby on Rails+Vue（Rails側の姿）</span><br>
-					<span>GFTDでVueとRailsの学習が終わって、<br>初めてフロントエンドとバックエンドを分けて<br>API通信で作ったサービス</span>
+					<span>事業所でVueとRailsの学習が終わって、<br>初めてフロントエンドとバックエンドを分けて<br>API通信で作ったサービス</span>
 				</div>
 			</v-card-title>
 		</v-card>
@@ -45,7 +45,7 @@
 				<div>
 					<span class="grey--text">京大案件で実装するためのグラフ</span><br>
 					<span>JavaScript</span><br>
-					<span>GFTDで学習が終わって人生初めての開発案件。<br>そこでグラフの実装が必要だったので、<br>自分で一度確認するために作成した。</span>
+					<span>事業所で学習が終わって人生初めての開発案件。<br>そこでグラフの実装が必要だったので、<br>自分で一度確認するために作成した。</span>
 				</div>
 			</v-card-title>
 		</v-card>
@@ -56,7 +56,7 @@
 				<div>
 					<span class="grey--text">初のハッカソン</span><br>
 					<span>Vuenative</span><br>
-					<span>GFTDの人たちと初めてのハッカソンをした時に触った。</span>
+					<span>事業所の人たちと初めてのハッカソンをした時に触った。</span>
 				</div>
 			</v-card-title>
 		</v-card>

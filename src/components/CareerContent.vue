@@ -9,8 +9,8 @@
       <v-container>
         <v-layout>
           <v-flex>
-            <p>・2017年 3月 とある専門学校を卒業</p><br>
-						<p>・2017年 4月 JAに入組</p><br>
+            <p>・2017年 3月 専門学校を卒業</p><br>
+						<p>・2017年 4月 農業関係のお仕事をする</p><br>
 						<p>・2017年 6月 適応障害と診断され休職</p><br>
 						<p>・2017年 7月 治療しつつ独学でプログラミングを学習をスタート</p><br>
 						<p>・2017年 9月 退職</p>
@@ -28,7 +28,7 @@
       <v-container>
         <v-layout>
          <v-flex>
-          	<p>・2017年 10月 AmazonにCSの契約社員として入社（電話やメール/チャット対応）</p><br>
+          	<p>・2017年 10月　ECサイトのCSの契約社員として入社（電話やメール/チャット対応）</p><br>
             <p>・2018年 1月 発達障害診断される</p><br>
 						<p>・2018年 2月 退職</p><br>
           </v-flex>
@@ -45,7 +45,7 @@
       <v-container>
       	<v-layout>
 				  <v-flex>
-            <p>・2018年 3月 UQのチャット業務に契約社員として入社</p><br>
+            <p>・2018年 3月 携帯会社のチャット業務に契約社員として入社</p><br>
 					</v-flex>
         </v-layout>
       </v-container>
@@ -73,7 +73,7 @@
 	<v-timeline-item id="v-timeline-5" color="#ff9f96" fill-dot right>
     <v-card>
       <v-card-title id="career-title-5">
-        <h2 class="display-1 white--text">GFTD FUKUOKA WORKSへ</h2>
+        <h2 class="display-1 white--text">就労移行支援事業所へ</h2>
       </v-card-title>
       <v-container>
         <v-layout>
